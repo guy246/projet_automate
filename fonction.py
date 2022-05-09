@@ -11,7 +11,7 @@ def entree_sortie (n,nombre_initial,nombre_final,etat_initial,etat_final):
             e_s= e_s +"S"
     return e_s
 
-alphabet =['a','b','c','d'] #on peut continuer l'alphabet pour les différents lien
+alphabet = ['a','b','c','d'] #on peut continuer l'alphabet pour les différents lien
 
 def lien (lien,alphabet,nombre_epsilon):
     for i in range(0, nombre_epsilon):
@@ -75,7 +75,6 @@ def var_lien (nombre_initial,etat_initial, nombre_final, etat_final,nombre_etat,
 
 def afficher_lien(l1):
     print(tabulate(l1))
-
 
 
 
